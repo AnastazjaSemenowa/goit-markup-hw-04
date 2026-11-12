@@ -5,12 +5,13 @@
 
 .footer .container {
   display: flex;
-  align-items: baseline;
-  gap: 120px;
+  align-items: flex-start;
+  
 }
 
 .footer-info {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -44,6 +45,7 @@
   height: 40px;
 }
 .footer-social-link {
+  color: #f4f4fd;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,4 +57,8 @@
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-social-icon {
+  fill: currentColor;
 }
