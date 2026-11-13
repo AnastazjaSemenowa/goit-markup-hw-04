@@ -88,11 +88,6 @@ color: #404bbf;
     cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-nav-link:hover::after,
-.main-nav-link:focus::after {
-  opacity: 1;
-}
-
 .main-nav-link.current {
   color: #404bbf;
 }
